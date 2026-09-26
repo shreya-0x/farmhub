@@ -274,7 +274,8 @@ h4 {
 }
 
 .main-workspace {
-  width: min(100% - 48px, 1500px);
+  width: auto;
+  max-width: 1500px;
   margin: 88px 24px 40px 284px;
 }
 
@@ -737,8 +738,8 @@ summary {
   }
 
   .main-workspace {
-    width: calc(100% - 260px);
     margin-left: 248px;
+    margin-right: 12px;
   }
 
   .entry-workspace {
@@ -787,7 +788,7 @@ summary {
 
   .main-workspace,
   .entry-workspace {
-    width: calc(100% - 28px);
+    width: auto;
     margin: 76px 14px 28px;
   }
 
